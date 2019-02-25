@@ -5,6 +5,6 @@ def reverse_each_word(string)
     drow = word.reverse
     reversed << drow
   end
-  backwards_string =reversed.join(" ")
+  backwards_string = reversed.join(" ")
   return backwards_string
 end
